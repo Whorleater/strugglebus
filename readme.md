@@ -22,8 +22,8 @@ json format:
 I've always been terrible at journaling, mostly because I find that I try to go too far in depth and write too much. This is my attempt to summarize my day by listing the biggest struggle I had that day. 
 
 #### Roadmap
-[] Build the application
-[] Allow adding of struggles from previous dates
-[] Set up tags
-[] Set up some form of analytics
-[] Move to a webapp? 
+- [ ] Build the application
+- [ ] Allow adding of struggles from previous dates
+- [ ] Set up tags
+- [ ] Set up some form of analytics
+- [ ] Move to a webapp? 
