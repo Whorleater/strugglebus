@@ -1,4 +1,4 @@
-# strugglebus - a really terrible journaling app
+# strugglebus - a really simple journaling app
 strugglebus is a command line journaling app that asks you of only one main thing per day: "what was today's struggles?" 
 
 ### How?
@@ -24,6 +24,7 @@ I've always been terrible at journaling, mostly because I find that I try to go 
 #### Roadmap
 - [x] Build the application
 - [ ] Allow adding of struggles from previous dates
+- [ ] Allow the renaming of journal files?
 - [ ] Set up tags
 - [ ] Set up some form of analytics
 - [ ] Move to a webapp? 
