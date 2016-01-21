@@ -26,6 +26,9 @@ I've always been terrible at journaling, mostly because I find that I try to go 
 - [x] Build the application
 - [ ] Allow adding of struggles from previous dates
 - [ ] Allow the renaming of journal files?
+- [ ] Remind at specific times 
+- [ ] Only allow journaling at specific times? 
 - [ ] Set up tags
 - [ ] Set up some form of analytics
 - [ ] Move to a webapp? 
+- [ ] Entries from phone?
