@@ -30,5 +30,7 @@ I've always been terrible at journaling, mostly because I find that I try to go 
 - [ ] Only allow journaling at specific times? 
 - [ ] Set up tags
 - [ ] Set up some form of analytics
+- [ ] Difficulty of struggle
+- [ ] Convert to csv
 - [ ] Move to a webapp? 
 - [ ] Entries from phone?
