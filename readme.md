@@ -11,6 +11,7 @@ strugglebus is a command line journaling app that asks you of only one main thin
 
 ### Tech details: 
 strugglebus writes everything to a giant json file named `strugglebus.json`. Not pretty, but you can track it with versioning, and it's pretty easy to unravel if you want the data later on. 
+
 json format:
     
     -- date
