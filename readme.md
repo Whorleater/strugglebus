@@ -14,7 +14,8 @@ strugglebus writes everything to a giant json file named `strugglebus.json`. Not
 
 json format:
     
-    -- date
+    -- entry #
+       |--- date
        |--- struggle
        |--- why?
        |--- solved?
