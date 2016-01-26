@@ -5,6 +5,7 @@ import json
 import os.path
 from datetime import date
 from distutils import util
+import parsedatetime
 
 class struggle(object):
     """Struggle Object
@@ -55,7 +56,14 @@ def main():
     journal = struggle()
     info = raw_input("What was today's biggest struggle?\n")
     reasons = raw_input("Why did you have that struggle?\n")
-    solved = util.strtobool(raw_input("Did you solve it?\n"))
+    tValue = True
+    while tValue:
+        try:
+            solved = util.strtobool(raw_input("Did you solve it?\n"))
+            tValue = False
+        except ValueError:
+            print("Not a true/false value, try again")
+        
     journal.write(info, reasons, solved)
     
 main()

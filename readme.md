@@ -26,7 +26,7 @@ I've always been terrible at journaling, mostly because I find that I try to go 
 #### Roadmap
 - [x] Build the application
 - [ ] Allow adding of struggles from previous dates
-- [ ] Allow the renaming of journal files?
+- [x] Allow the renaming of journal files?
 - [ ] Remind at specific times 
 - [ ] Only allow journaling at specific times? 
 - [ ] Set up tags
