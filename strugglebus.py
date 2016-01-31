@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import json
+import sys
 import os.path
 from datetime import date
 from distutils import util
@@ -52,7 +53,7 @@ class struggle(object):
         
 
 
-def main():
+def main(argv):
     journal = struggle()
     info = raw_input("What was today's biggest struggle?\n")
     reasons = raw_input("Why did you have that struggle?\n")
@@ -62,9 +63,10 @@ def main():
             solved = util.strtobool(raw_input("Did you solve it?\n"))
             tValue = False
         except ValueError:
-            print("Not a true/false value, try again")
+            print("Not a true/false value, try again!")
         
     journal.write(info, reasons, solved)
-    
-main()
+
+if __name__ == "__main__":
+    main(sys.argv[1:])
         
